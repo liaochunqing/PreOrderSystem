@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="dtMenuListTableViewCellIdentifier" rowHeight="84" id="4" customClass="DtMenuListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="762" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4" id="4VM-DQ-KsD">
+                <rect key="frame" x="0.0" y="0.0" width="762" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView hidden="YES" contentMode="scaleToFill" id="45" userLabel="col1 - dishCard_listTableviewCell.png">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="66"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <imageView hidden="YES" contentMode="scaleToFill" id="46" userLabel="col2 - dishCard_listTableviewCell.png">
+                        <rect key="frame" x="260" y="0.0" width="240" height="66"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Gc3-dO-qRv">
+                        <rect key="frame" x="522" y="0.0" width="240" height="66"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="49" userLabel="col1DishName - Label">
+                        <rect key="frame" x="10" y="16" width="214" height="36"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="52" userLabel="col1DishName - Label">
+                        <rect key="frame" x="271" y="16" width="214" height="36"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ha5-Qt-SnZ">
+                        <rect key="frame" x="534" y="16" width="214" height="36"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="61" userLabel="col1 - Button">
+                        <rect key="frame" x="2" y="3" width="235" height="64"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal">
+                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="columnBtnClicked:" destination="4" eventType="touchUpInside" id="hr0-OJ-H4V"/>
+                        </connections>
+                    </button>
+                    <button hidden="YES" opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="63" userLabel="col2 - Button">
+                        <rect key="frame" x="264" y="3" width="235" height="62"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal">
+                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="columnBtnClicked:" destination="4" eventType="touchUpInside" id="u4R-U5-lnB"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dishCard_SoldOut.png" id="Ggh-x7-FQY">
+                        <rect key="frame" x="419" y="5" width="80" height="56"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Of0-FK-Cdf">
+                        <rect key="frame" x="525" y="3" width="235" height="62"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="columnBtnClicked:" destination="4" eventType="touchUpInside" id="Zc6-Sk-0ip"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dishCard_SoldOut.png" id="J1H-6u-Ug1">
+                        <rect key="frame" x="680" y="6" width="80" height="56"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dishCard_SoldOut.png" id="Ucm-S7-CQB">
+                        <rect key="frame" x="157" y="5" width="80" height="56"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopSupplyImv.png" id="ygo-MY-6Ol">
+                        <rect key="frame" x="181" y="6" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopSupplyImv.png" id="htx-0G-aLT">
+                        <rect key="frame" x="441" y="6" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopSupplyImv.png" id="7KG-oi-Hz9">
+                        <rect key="frame" x="704" y="6" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="colFirstBgImageview" destination="45" id="nrq-lt-9ia"/>
+                <outlet property="colFirstBigBtn" destination="61" id="kd2-dO-AVg"/>
+                <outlet property="colFirstDishNameLabel" destination="49" id="POg-MF-W9e"/>
+                <outlet property="colSecondBgImageview" destination="46" id="yCD-3h-UPq"/>
+                <outlet property="colSecondBigBtn" destination="63" id="mel-n1-ycZ"/>
+                <outlet property="colSecondDishNameLabel" destination="52" id="fap-Eh-sxB"/>
+                <outlet property="colThirdBgImageview" destination="Gc3-dO-qRv" id="R60-5Z-mgn"/>
+                <outlet property="colThirdBigBtn" destination="Of0-FK-Cdf" id="FgV-Ao-Oen"/>
+                <outlet property="colThirdDishNameLabel" destination="Ha5-Qt-SnZ" id="uXK-Kx-wus"/>
+                <outlet property="firstIsSoldOutImageView" destination="Ucm-S7-CQB" id="jda-jU-Eve"/>
+                <outlet property="firstIsStopImv" destination="ygo-MY-6Ol" id="iEv-y5-26e"/>
+                <outlet property="secondIsStopImv" destination="htx-0G-aLT" id="Zfg-CP-2SZ"/>
+                <outlet property="secondSoldOutImageView" destination="Ggh-x7-FQY" id="f8a-NX-8Ad"/>
+                <outlet property="thirdIsStopImv" destination="7KG-oi-Hz9" id="IAS-m6-7fS"/>
+                <outlet property="thirdSoldOutImageView" destination="J1H-6u-Ug1" id="sJ4-Uk-mEo"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dishCard_SoldOut.png" width="80" height="56"/>
+        <image name="stopSupplyImv.png" width="160" height="160"/>
+    </resources>
+</document>
